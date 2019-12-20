@@ -1,6 +1,6 @@
 package main
 
-// Data stores JSON data returned by the HN API
+// Data stores JSON comment/ask/show/jobs/poll/parts data
 type Data struct {
 	IsDeleted          bool      `json:"deleted"`
 	ID                 float64   `json:"id"`
@@ -19,11 +19,12 @@ type Data struct {
 	Title              string    `json:"title"`
 }
 
+// User stores JSON user data
 type User struct {
-	Id        string    `json:"id"`
-	Delay     string    `json:"delay"`
-	Created   string    `json:"created"`
-	Karma     float64   `json:"karma"`
-	About     string    `json:"about"`
-	Submitted []float64 `json:"submitted"`
+	Username             string    `json:"id"`
+	CreationDelayMinutes float64   `json:"delay"`
+	CreatedAtUnix        float64   `json:"created"`
+	Karma                float64   `json:"karma"`
+	About                string    `json:"about"`
+	Submitted            []float64 `json:"submitted"`
 }
