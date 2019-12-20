@@ -18,3 +18,12 @@ type Data struct {
 	URL                string    `json:"url"`
 	Title              string    `json:"title"`
 }
+
+type User struct {
+	Id        string    `json:"id"`
+	Delay     string    `json:"delay"`
+	Created   string    `json:"created"`
+	Karma     float64   `json:"karma"`
+	About     string    `json:"about"`
+	Submitted []float64 `json:"submitted"`
+}
