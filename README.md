@@ -3,7 +3,7 @@ A command line interface for Hacker News, to be built in Go.
 
 ## TODO
 
-- [ ] Allow easy build using go mod
+- [X] Allow easy build using go mod
 - [ ] Display _something_ in the terminal
 - [ ] Top bar with "fancy" HN logo/ text/ thing
 - [ ] Show the front page of HN
@@ -14,7 +14,7 @@ A command line interface for Hacker News, to be built in Go.
 - [ ] Tabs for Ask/Show, etc
 
 ## FAQ
-(more like never asked questions, amirite)
+(more like never asked questions)
 
 > Why?!
 
